@@ -1,70 +1,75 @@
 # 🎧 Spotify Top 50 Analysis: How Hits Go Global
 
-## 📌 Overview
-Este proyecto analiza el comportamiento de las canciones más populares en Spotify, con foco en cómo los hits se difunden a nivel global desde los principales mercados musicales hacia otros países.
-
-El objetivo es entender las dinámicas detrás del posicionamiento en rankings y la lógica de difusión internacional de la música.
+## 👀 Vista rápida
+Proyecto de análisis de datos enfocado en entender cómo se difunden los hits en Spotify a nivel global y qué factores influyen en su posicionamiento dentro del Top 50.
 
 ---
 
 ## 🎯 Objetivo
-Identificar patrones en la propagación de canciones dentro del Top 50 de Spotify, considerando:
-
+Analizar el comportamiento de las canciones más populares en Spotify, identificando patrones de:
 - Difusión internacional
 - Permanencia en rankings
-- Variaciones de posición (diarias y semanales)
-- Características musicales
+- Variación de posiciones
+- Influencia de mercados líderes
 
 ---
 
-## 🧠 Enfoque del análisis
-El análisis se centra en interpretar la **lógica detrás del algoritmo y los rankings**, entendiendo:
+## 🧠 Enfoque
+El proyecto se centra en entender la lógica detrás del algoritmo y los rankings de Spotify, analizando:
 
 - Cómo una canción logra posicionarse
-- Qué factores influyen en su permanencia
-- Cómo se comporta en distintos mercados
-- De qué manera los mercados líderes impactan en tendencias globales
+- Qué variables impactan en su rendimiento
+- Cómo se propagan los hits desde mercados clave hacia el resto del mundo
 
 ---
 
 ## 🌍 Dataset
 - Fuente: Kaggle  
-- Dataset: Top Spotify Songs in 73 Countries (daily updated)  
-- Se trabajó con una muestra del 10% para optimizar el análisis, manteniendo diversidad temporal y geográfica.
+- Top Spotify Songs in 73 Countries  
+- Muestra del 10% del dataset original  
 
 ---
 
-## 🛠️ Herramientas utilizadas
-- **SQL** → manipulación y organización de datos  
-- **Power BI** → modelado de datos y visualización  
-- **Excel** → soporte en transformación inicial  
+## 🛠️ Herramientas
+- SQL (modelado y manipulación de datos)
+- Power BI (visualización y dashboards)
+- Excel (procesamiento inicial)
 
 ---
 
 ## 📊 Dashboard
-El proyecto incluye un dashboard interactivo desarrollado en Power BI que permite analizar:
 
-- Difusión internacional de canciones  
-- Popularidad y rotación en rankings  
-- Desempeño (ranking + permanencia)  
-- Características musicales de los hits  
+### Vista general
+![Dashboard](images/dashboard_general.png)
 
-👉 [Agregar acá tu link de Power BI]
+### Difusión internacional
+![Difusion](images/difusion.png)
+
+### Popularidad en rankings
+![Rankings](images/rankings.png)
+
+### Desempeño de canciones
+![Desempeno](images/desempeno.png)
+
+### Características musicales
+![Caracteristicas](images/caracteristicas.png)
+
+📌 El dashboard interactivo fue desarrollado en Power BI y puede compartirse a solicitud.
 
 ---
 
-## 📈 Principales insights
-- Los hits globales suelen posicionarse primero en mercados líderes como Estados Unidos, Reino Unido y Japón.  
-- Existe un patrón de difusión desde estos mercados hacia el resto del mundo.  
-- El éxito no depende solo del ranking máximo, sino de la combinación entre **posición y permanencia**.  
-- Las características musicales también influyen en el rendimiento dentro de los rankings.
+## 📈 Insights clave
+- Los hits globales suelen originarse en mercados líderes como Estados Unidos, Reino Unido y Japón.  
+- Existe un patrón de difusión progresiva hacia otros países.  
+- El éxito no depende solo del ranking máximo, sino de la combinación entre posición y permanencia.  
+- Las características musicales influyen en el rendimiento dentro del ranking.  
 
 ---
 
 ## 🚀 Conclusión
-El proyecto permite entender que el éxito en plataformas como Spotify no es aleatorio, sino que responde a dinámicas de mercado, comportamiento del algoritmo y patrones de consumo global.
+El posicionamiento en Spotify responde a dinámicas de mercado, comportamiento del algoritmo y patrones de consumo global, más que a resultados aleatorios.
 
 ---
 
 ## 📩 Contacto
-Si te interesa conocer más sobre el proyecto o ver el análisis completo, podés contactarme por LinkedIn.
+Si te interesa ver el proyecto completo o el dashboard interactivo, podés contactarme por LinkedIn.
