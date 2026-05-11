@@ -248,33 +248,6 @@ Este panel permite incorporar una dimensión musical al análisis de desempeño,
 
 ---
 
-# 🧠 Skills demostradas
-
-- Limpieza y transformación de datos
-- Modelado relacional
-- Creación de medidas DAX
-- Análisis exploratorio de datos
-- Diseño de dashboards interactivos
-- Visualización orientada al usuario
-- Storytelling con datos
-- Navegación entre páginas
-- Uso de filtros dinámicos
-- Construcción de KPIs
-
----
-
-# 🔍 Conclusiones principales
-
-En conjunto, los dashboards permiten abordar el fenómeno musical desde distintas dimensiones:
-
-- **Difusión internacional:** permite analizar en qué mercados se expanden las canciones y cuál es su alcance global.
-- **Popularidad en rankings:** permite observar la estabilidad, rotación y permanencia de canciones dentro de los charts.
-- **Desempeño en rankings:** permite identificar canciones y artistas que combinan buenas posiciones con permanencia sostenida.
-- **Características musicales:** permite comparar atributos como danceability, energy y valence con el desempeño obtenido.
-
-A partir del análisis, se observa que la popularidad de una canción no depende únicamente de alcanzar una buena posición, sino también de su permanencia, estabilidad y capacidad de difusión entre mercados.
-
----
 
 # 📁 Archivos incluidos
 
@@ -287,7 +260,6 @@ Este repositorio contiene:
 - Recursos visuales del proyecto
 
 ---
-
 # 📌 Dataset
 
 Dataset utilizado con fines educativos y analíticos para explorar el comportamiento de rankings musicales globales de Spotify.
@@ -298,7 +270,7 @@ Dataset utilizado con fines educativos y analíticos para explorar el comportami
 
 **Agustina Landoni**
 
-Estudiante de Relaciones Públicas con interés en:
+Licenciada de Relaciones Públicas con interés en:
 
 - Data Analytics
 - Business Intelligence
