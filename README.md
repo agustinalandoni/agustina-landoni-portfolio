@@ -57,8 +57,8 @@ El dataset permite analizar la evolución de canciones populares a nivel global,
 
 Cada registro permite observar la presencia de una canción en un mercado determinado, en una fecha específica, junto con su posición en el ranking y variables complementarias para el análisis.
 
-**Dataset utilizado:** [Nombre del dataset](PEGAR_LINK_ACÁ)  
-**Autor del dataset:** [Asaniczka](PEGAR_LINK_ACÁ)
+**Dataset utilizado:** [Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated/data)  
+**Autor del dataset:** [Asaniczka](https://www.kaggle.com/asaniczka)
 
 ### Información incluida en el dataset
 
