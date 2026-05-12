@@ -77,8 +77,6 @@ La hipótesis del proyecto plantea que las canciones más exitosas a nivel globa
 
 ---
 
----
-
 ## 🗂 Modelo de datos
 
 El proyecto fue construido a partir de un modelo relacional que permite conectar información de canciones, artistas, álbumes, países, características musicales y rankings.
@@ -378,11 +376,12 @@ Este panel permite incorporar una dimensión musical al análisis de desempeño,
 
 Este repositorio contiene:
 
-- Archivo `.pbix`
-- Exportación del dashboard en PDF
-- Capturas de pantalla de cada dashboard
-- README descriptivo
-- Recursos visuales del proyecto
+- [Dashboard Power BI (.pbix)](spotify-global-rankings-dashboard.pbix)
+- [Exportación del dashboard en PDF](spotify-global-rankings-dashboard.pdf)
+- [Trabajo final / documentación del proyecto](trabajo-final-coderhouse-powerbi.pdf)
+- [Capturas y GIFs de los dashboards](screenshots/)
+- README descriptivo del proyecto
+---
 
 ---
 # 📌 Dataset
