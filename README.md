@@ -359,19 +359,6 @@ El objetivo es observar si las canciones mejor posicionadas comparten ciertos pa
 Este panel permite incorporar una dimensión musical al análisis de desempeño, conectando características de audio con resultados obtenidos en rankings.
 
 ---
-
-# 🛠 Herramientas utilizadas
-
-- Power BI
-- Power Query
-- DAX
-- Modelado de datos
-- Visualización de datos
-- Storytelling analítico
-
----
-
-
 # 📁 Archivos incluidos
 
 Este repositorio contiene:
