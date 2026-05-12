@@ -368,15 +368,8 @@ Este repositorio contiene:
 - [Trabajo final / documentación del proyecto](trabajo-final-coderhouse-powerbi.pdf)
 - [Capturas y GIFs de los dashboards](screenshots/)
 - README descriptivo del proyecto
----
 
 ---
-# 📌 Dataset
-
-Dataset utilizado con fines educativos y analíticos para explorar el comportamiento de rankings musicales globales de Spotify.
-
----
-
 # 👩‍💻 Autora
 
 **Agustina Landoni**
