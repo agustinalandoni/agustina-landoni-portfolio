@@ -14,6 +14,17 @@ A través del análisis de popularidad, características musicales, permanencia,
 
 ---
 
+## 🛠 Herramientas utilizadas
+
+- Power BI
+- Power Query
+- DAX
+- Modelado de datos
+- Visualización de datos
+- Storytelling analítico
+- Análisis exploratorio de datos
+
+---
 ## 🌎 Alcance del análisis
 
 El proyecto trabaja con un dataset basado en rankings musicales de Spotify en más de 70 países.
@@ -38,25 +49,155 @@ El análisis tiene una aplicación táctica, ya que permite generar información
 
 ---
 
+## 📌 Dataset
+
+El proyecto fue desarrollado a partir de un dataset de rankings musicales de Spotify, compuesto por registros de canciones presentes en el Top 50 de distintos países.
+
+El dataset permite analizar la evolución de canciones populares a nivel global, considerando información sobre rankings diarios, países, artistas, álbumes y características musicales.
+
+Cada registro permite observar la presencia de una canción en un mercado determinado, en una fecha específica, junto con su posición en el ranking y variables complementarias para el análisis.
+
+**Dataset utilizado:** [Nombre del dataset](PEGAR_LINK_ACÁ)  
+**Autor del dataset:** [Asaniczka](PEGAR_LINK_ACÁ)
+
+### Información incluida en el dataset
+
+- Canciones presentes en rankings de Spotify.
+- Países donde se publican los rankings.
+- Posición diaria de cada canción.
+- Variaciones diarias y semanales.
+- Información del artista y álbum.
+- Características musicales como danceability, energy, valence, tempo, entre otras.
+
+---
+
 ## 💡 Hipótesis de trabajo
 
 La hipótesis del proyecto plantea que las canciones más exitosas a nivel global tienden a posicionarse primero en mercados líderes de la industria musical —como Estados Unidos, Reino Unido y Japón— y luego expandirse hacia otros países.
 
 ---
 
+---
+
 ## 🗂 Modelo de datos
 
-El proyecto fue construido utilizando un modelo relacional compuesto por las siguientes tablas:
+El proyecto fue construido a partir de un modelo relacional que permite conectar información de canciones, artistas, álbumes, países, características musicales y rankings.
 
-- Canción
-- Artista
-- Álbum
-- Características
-- País
-- Chart
-- Calendario
+El modelo busca organizar los datos de forma clara para facilitar el análisis de desempeño, difusión internacional y evolución temporal de las canciones.
 
-Este modelo permite conectar información de rankings, características musicales y difusión internacional para realizar análisis multidimensionales.
+### Diagrama entidad-relación
+
+![Diagrama entidad-relación](screenshots/diagrama-entidad-relacion.png)
+
+### Tablas del modelo
+
+#### Tabla: Canción
+
+Contiene la información principal de cada canción disponible en el dataset.
+
+Incluye:
+- Identificador único de la canción.
+- Nombre de la canción.
+- Duración.
+- Indicador de contenido explícito.
+- Popularidad.
+- Relación con artista principal.
+- Relación con álbum.
+
+Esta tabla funciona como una de las entidades centrales del modelo, ya que permite vincular el desempeño en rankings con información propia de cada canción.
+
+---
+
+#### Tabla: Artista
+
+Almacena la información de los artistas incluidos en el dataset.
+
+Incluye:
+- Identificador único del artista.
+- Nombre del artista.
+
+Permite analizar el desempeño no solo a nivel canción, sino también desde una perspectiva de artista.
+
+---
+
+#### Tabla: Álbum
+
+Contiene los datos correspondientes a los álbumes a los que pertenecen las canciones.
+
+Incluye:
+- Identificador único del álbum.
+- Nombre del álbum.
+- Fecha de lanzamiento.
+
+Esta tabla permite complementar el análisis musical con información del lanzamiento y contexto de cada canción.
+
+---
+
+#### Tabla: Características
+
+Incluye las características musicales asociadas a cada canción.
+
+Incluye variables como:
+- Danceability.
+- Energy.
+- Valence.
+- Tempo.
+- Acousticness.
+- Instrumentalness.
+- Liveness.
+- Speechiness.
+- Loudness.
+- Mode.
+- Key.
+- Time signature.
+
+Esta tabla permite analizar si ciertos atributos musicales se relacionan con mejores posiciones, mayor permanencia o mejor desempeño general en rankings.
+
+---
+
+#### Tabla: País
+
+Representa los países o mercados donde se publican los rankings musicales del dataset.
+
+Incluye:
+- Identificador único del país.
+- Nombre del país o región.
+- Continente asignado.
+
+La incorporación del continente permite enriquecer el análisis geográfico y comparar el desempeño de canciones entre distintas regiones del mundo.
+
+---
+
+#### Tabla: Chart
+
+Contiene la información histórica de los rankings diarios de canciones por país y fecha.
+
+Incluye:
+- Identificador del registro de ranking.
+- Canción rankeada.
+- País del ranking.
+- Fecha del registro.
+- Posición diaria.
+- Movimiento diario.
+- Movimiento semanal.
+
+Esta tabla es clave para analizar la evolución temporal de las canciones, su permanencia, variaciones de posición y comportamiento dentro de los rankings.
+
+---
+
+#### Tabla: Calendario
+
+Tabla creada para organizar el análisis temporal del proyecto.
+
+Incluye:
+- Fecha.
+- Año.
+- Mes.
+- Día.
+- Mes año.
+- Orden de mes.
+
+Esta tabla permite analizar la evolución de rankings a lo largo del tiempo y ordenar correctamente las visualizaciones temporales.
 
 ---
 
