@@ -82,11 +82,7 @@ Entre las principales transformaciones se incluyen:
 
 ## 🌍 Dashboard 1: Difusión internacional de canciones
 
-![Difusión internacional](screenshots/difusion-global.png)
-
-<!-- Si tenés GIF, podés usar esta línea en lugar de la imagen:
 ![Difusión internacional](assets/difusion-global.gif)
--->
 
 ### Objetivo
 
@@ -122,11 +118,7 @@ Este panel ayuda a identificar canciones con mayor difusión global y permite co
 
 ## 📈 Dashboard 2: Popularidad y estabilidad en rankings
 
-![Popularidad en rankings](screenshots/popularidad-rankings.png)
-
-<!-- Si tenés GIF, podés usar esta línea en lugar de la imagen:
 ![Popularidad en rankings](assets/popularidad-rankings.gif)
--->
 
 ### Objetivo
 
@@ -161,11 +153,7 @@ Este panel permite diferenciar canciones que tienen apariciones breves de aquell
 
 ## 🎤 Dashboard 3: Desempeño de canciones en rankings
 
-![Desempeño de canciones](screenshots/desempeno-canciones.png)
-
-<!-- Si tenés GIF, podés usar esta línea en lugar de la imagen:
 ![Desempeño de canciones](assets/desempeno-canciones.gif)
--->
 
 ### Objetivo
 
@@ -200,10 +188,8 @@ Este panel permite identificar canciones con rendimiento sólido, no solo por al
 
 ## 🎧 Dashboard 4: Características musicales de canciones
 
-![Características musicales](screenshots/caracteristicas-musicales.png)
-
-<!-- Si tenés GIF, podés usar esta línea en lugar de la imagen:
 ![Características musicales](assets/caracteristicas-musicales.gif)
+
 -->
 
 ### Objetivo
