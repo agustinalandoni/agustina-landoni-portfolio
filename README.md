@@ -87,7 +87,7 @@ El modelo busca organizar los datos de forma clara para facilitar el análisis d
 
 ### Diagrama entidad-relación
 
-![Diagrama entidad-relación](screenshots/diagrama-entidad-relacion.png)
+![Diagrama entidad-relación](diagrama-entidad-relacion.png)
 
 ### Tablas del modelo
 
